@@ -53,9 +53,12 @@ const Pricing: React.FC = () => {
           
           <div className="relative group">
             <div className="absolute -inset-1 bg-yellow-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
-            <button className="relative w-full bg-yellow-500 hover:bg-yellow-600 text-black py-6 rounded-2xl font-black text-lg md:text-xl transition-all hover:scale-[1.03] active:scale-95 shadow-xl shadow-yellow-500/20 mb-4 leading-tight">
+            <a 
+              href="https://pay.kiwify.com.br/F9LfAUz"
+              className="relative block w-full bg-yellow-500 hover:bg-yellow-600 text-black py-6 rounded-2xl font-black text-lg md:text-xl text-center transition-all hover:scale-[1.03] active:scale-95 shadow-xl shadow-yellow-500/20 mb-4 leading-tight"
+            >
               QUERO QUEBRAR AS CORRENTES E MUDAR MINHA REALIDADE AGORA
-            </button>
+            </a>
           </div>
           
           <p className="text-center text-[10px] text-gray-500 font-bold mb-6 uppercase tracking-wider leading-relaxed px-4">
