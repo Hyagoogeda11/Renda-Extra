@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <div className="p-2 bg-yellow-500 rounded-lg">
               <DollarSign className="w-4 h-4 text-black" />
             </div>
-            <span className="font-bold text-xl text-white ml-1">Renda<span className="text-yellow-500">Extra</span></span>
+            <span className="font-bold text-xl text-white ml-1">Destrave sua<span className="text-yellow-500"> Renda</span></span>
           </div>
           
           <nav className="flex gap-8 text-sm text-gray-500 font-medium">
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="text-center text-gray-600 text-xs">
-          <p className="mb-4">&copy; 2024 Renda Extra. Todos os direitos reservados.</p>
+          <p className="mb-4">&copy; 2024 Destrave sua Renda. Todos os direitos reservados.</p>
           <p className="max-w-2xl mx-auto leading-relaxed">
             Atenção: Os resultados citados são experiências pessoais e podem variar de acordo com o esforço individual. Não garantimos ganhos financeiros sem aplicação prática do método.
           </p>
