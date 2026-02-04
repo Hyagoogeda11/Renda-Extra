@@ -1,0 +1,6 @@
+# .gitattributes
+# Forçar LF para arquivos no dist e arquivos JS/TS
+dist/** text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.txt text eol=lf
