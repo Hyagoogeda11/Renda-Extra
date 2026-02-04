@@ -4,3 +4,6 @@ dist/** text eol=lf
 *.js text eol=lf
 *.ts text eol=lf
 *.txt text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
