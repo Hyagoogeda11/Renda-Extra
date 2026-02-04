@@ -9,6 +9,7 @@ import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 
+
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#0f0f11] text-white selection:bg-yellow-500/30 overflow-x-hidden relative">
