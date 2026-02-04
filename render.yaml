@@ -1,6 +1,6 @@
 services:
-  - type: static
-    name: gemini-ai-app
+  - type: static_site
+    name: Renda-Extra
     env: static
-    buildCommand: npm install && npm install vite&& npm run build && npm preview
+    buildCommand: npm install && npm install vite && npm run build
     staticPublishPath: ./dist
