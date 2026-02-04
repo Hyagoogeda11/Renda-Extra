@@ -1,5 +1,7 @@
-static_sites:
-  - name: my-static-site
+services:
+  - type: web
+    name: Renda-Extra
+    env: node
     repo: https://github.com/Hyagoogeda11/Renda-Extra
     branch: main
     buildCommand: npm install && npm install vite && npm run build && npm run preview
