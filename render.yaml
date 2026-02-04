@@ -1,8 +1,7 @@
 services:
-  - type: web
+  - type: static
     name: Renda-Extra
-    env: node
     repo: https://github.com/Hyagoogeda11/Renda-Extra
     branch: main
-    buildCommand: npm install && npm install vite && npm run build && npm run preview
+    buildCommand: npm install && npm install vite && npm run build
     staticPublishPath: ./dist
