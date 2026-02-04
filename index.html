@@ -20,16 +20,13 @@
           linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
           linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
       }
-      /* Efeito de fade nas bordas para a grade não ficar dura */
       .grid-mask {
         mask-image: radial-gradient(circle at center, black, transparent 80%);
       }
     </style>
     <script>
-  // Se não houver a flag 'reloaded' na sessão, define e recarrega
   if (!sessionStorage.getItem('reloaded_once')) {
     sessionStorage.setItem('reloaded_once', 'true');
-    // Recarrega a página (pode usar location.reload() ou location.href = location.href)
     location.reload();
   }
 </script>
