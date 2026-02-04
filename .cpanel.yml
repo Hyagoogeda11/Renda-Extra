@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/hyagoo75/ebookrendaextra.com.br
+    - export DEPLOYPATH=/home2/hyagoo75/ebookrendaextra.com.brgit status
     - npm install
     - npm run build
     - /bin/cp -r dist/* $DEPLOYPATH
