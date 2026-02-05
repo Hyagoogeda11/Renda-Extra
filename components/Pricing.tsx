@@ -66,7 +66,7 @@ const Pricing: React.FC = () => {
           </p>
           
           <div className="flex justify-center items-center gap-4 opacity-70">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo_Pix.png" alt="Pix" className="h-3" />
+            <img src="https://logospng.org/wp-content/uploads/pix.png" alt="Pix" className="h-3" />
             <div className="h-4 w-px bg-white/20"></div>
             <span className="text-[9px] text-gray-500 font-bold uppercase tracking-tight">Compra 100% Segura e Criptografada</span>
           </div>
